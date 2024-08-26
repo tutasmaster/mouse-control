@@ -1,0 +1,11 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://r1r1lflnh68v"]
+
+[resource]
+metallic_specular = 1.0
+roughness = 0.01
+normal_enabled = true
+normal_scale = 1.2
+uv1_scale = Vector3(32.675, 32.675, 32.675)
+uv1_triplanar = true
+uv1_triplanar_sharpness = 0.870546
+texture_filter = 2

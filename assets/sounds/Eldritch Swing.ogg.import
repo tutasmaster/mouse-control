@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://cg87nryvovqn4"
+path="res://.godot/imported/Eldritch Swing.ogg-759324869478703d864a3c669c9ce9b4.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/sounds/Eldritch Swing.ogg"
+dest_files=["res://.godot/imported/Eldritch Swing.ogg-759324869478703d864a3c669c9ce9b4.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

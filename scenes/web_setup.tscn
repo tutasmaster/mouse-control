@@ -1,0 +1,53 @@
+[gd_scene format=3 uid="uid://bnympjbpkwhfh"]
+
+[node name="WebSetup" type="Node3D"]
+visible = false
+
+[node name="OmniLight3D" type="OmniLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 29.7329, 26.9982, 57.6884)
+light_color = Color(0.803833, 0.877337, 0.930653, 1)
+light_bake_mode = 1
+omni_range = 62.791
+omni_attenuation = 0.29
+
+[node name="OmniLight3D2" type="OmniLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 86.7026, 31.8684, 21.918)
+light_color = Color(0.803833, 0.877337, 0.930653, 1)
+light_bake_mode = 1
+omni_range = 62.791
+omni_attenuation = 0.29
+
+[node name="OmniLight3D3" type="OmniLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -26.6172, 26.9975, 68.692)
+light_color = Color(0.92141, 0.844242, 0.843795, 1)
+light_bake_mode = 1
+omni_range = 73.556
+omni_attenuation = 0.14
+
+[node name="OmniLight3D4" type="OmniLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -26.6172, 26.9975, -55.6184)
+light_color = Color(0.92141, 0.844242, 0.843795, 1)
+light_bake_mode = 1
+omni_range = 67.496
+omni_attenuation = 0.34
+
+[node name="OmniLight3D5" type="OmniLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.9317, 26.9975, -55.6184)
+light_color = Color(0.92141, 0.844242, 0.843795, 1)
+light_bake_mode = 1
+omni_range = 67.496
+omni_attenuation = 0.34
+
+[node name="OmniLight3D6" type="OmniLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.9317, 26.9975, 17.7384)
+light_color = Color(0.92141, 0.844242, 0.843795, 1)
+light_bake_mode = 1
+omni_range = 67.496
+omni_attenuation = 0.34
+
+[node name="ReflectionProbe" type="ReflectionProbe" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.7979, 16.4048, 12.3936)
+size = Vector3(294.405, 36.8278, 244.836)
+box_projection = true
+interior = true
+enable_shadows = true

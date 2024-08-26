@@ -1,0 +1,26 @@
+[gd_scene load_steps=2 format=3 uid="uid://cc2tlx66wjo1s"]
+
+[ext_resource type="Script" path="res://scripts/ui/file_options.gd" id="1_2p4y8"]
+
+[node name="FILE_OPTIONS" type="HBoxContainer"]
+script = ExtResource("1_2p4y8")
+
+[node name="FILE" type="LineEdit" parent="."]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 4
+text = "property"
+
+[node name="OPTIONS" type="VBoxContainer" parent="."]
+layout_mode = 2
+
+[node name="SAVE" type="Button" parent="OPTIONS"]
+layout_mode = 2
+text = "SAVE"
+
+[node name="LOAD" type="Button" parent="OPTIONS"]
+layout_mode = 2
+text = "LOAD"
+
+[connection signal="pressed" from="OPTIONS/SAVE" to="." method="save"]
+[connection signal="pressed" from="OPTIONS/LOAD" to="." method="load"]

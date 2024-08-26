@@ -1,0 +1,71 @@
+[gd_resource type="Theme" load_steps=7 format=3 uid="uid://dtl8jqt0k54ua"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_05oe8"]
+bg_color = Color(0.450018, 0.238626, 0.58002, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6dvam"]
+bg_color = Color(0.242741, 0.199095, 0.41948, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_xui2e"]
+bg_color = Color(0.118998, 0.0856787, 0.184751, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+
+[sub_resource type="StyleBoxLine" id="StyleBoxLine_wa5r4"]
+content_margin_bottom = 14.0
+color = Color(1, 1, 1, 1)
+grow_begin = -10.0
+grow_end = -10.0
+thickness = 3
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_qxw1x"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_nip88"]
+bg_color = Color(0.198444, 0.182937, 0.184721, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0, 0, 0, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+expand_margin_left = 10.0
+expand_margin_top = 10.0
+expand_margin_right = 10.0
+expand_margin_bottom = 10.0
+
+[resource]
+Button/font_sizes/font_size = 24
+Button/fonts/font = null
+Button/styles/hover = SubResource("StyleBoxFlat_05oe8")
+Button/styles/normal = SubResource("StyleBoxFlat_6dvam")
+Button/styles/pressed = SubResource("StyleBoxFlat_xui2e")
+HSeparator/constants/separation = 0
+HSeparator/styles/separator = SubResource("StyleBoxLine_wa5r4")
+Label/font_sizes/font_size = 24
+Panel/styles/panel = SubResource("StyleBoxEmpty_qxw1x")
+PanelContainer/styles/panel = SubResource("StyleBoxFlat_nip88")

@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://sysx4mtno21c"]
+
+[ext_resource type="Script" path="res://scenes/label.gd" id="1_3hqoe"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_dc0v0"]
+font_size = 64
+shadow_size = 0
+shadow_color = Color(0, 0, 0, 0.560784)
+
+[node name="Label" type="Label"]
+text = "TITLE"
+label_settings = SubResource("LabelSettings_dc0v0")
+horizontal_alignment = 1
+script = ExtResource("1_3hqoe")
